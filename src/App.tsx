@@ -36,6 +36,8 @@ import { FilterBar } from './components/search/FilterBar';
 import { UserProfileView } from './components/profile/UserProfileView';
 import { AdminDashboard } from './components/admin/AdminDashboard';
 
+import { MOCK_COMPANIES } from './data/mockCompanies';
+import { MOCK_CATEGORIES } from './data/mockCategories';
 import { Building2, Store } from 'lucide-react';
 
 const MainContent: React.FC = () => {
