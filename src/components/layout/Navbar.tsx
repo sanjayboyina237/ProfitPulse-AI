@@ -45,7 +45,7 @@ export const Navbar: React.FC = () => {
             className="flex items-center gap-3 cursor-pointer group"
           >
             <img 
-              src="/logo.jpg" 
+              src="./logo.jpg" 
               alt="ProfitPulse AI Logo" 
               className="w-11 h-11 rounded-xl object-cover ring-2 ring-cyan-500/40 shadow-glow-cyan group-hover:scale-105 transition-transform" 
             />
