@@ -1,5 +1,5 @@
 import React from 'react';
-import { Building2, Store, TrendingUp, ArrowRight, ShieldCheck, Star } from 'lucide-react';
+import { Building2, Store, ArrowRight } from 'lucide-react';
 import { MOCK_COMPANIES } from '../../data/mockCompanies';
 import { MOCK_CATEGORIES } from '../../data/mockCategories';
 import { useApp } from '../../context/AppContext';

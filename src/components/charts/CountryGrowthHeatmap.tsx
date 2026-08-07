@@ -1,6 +1,5 @@
 import React from 'react';
-import { COUNTRY_GROWTH_DATA } from '../../data/mockCharts';
-import { Globe, TrendingUp, ShieldCheck } from 'lucide-react';
+import { Globe } from 'lucide-react';
 import { useApp } from '../../context/AppContext';
 import { MOCK_COUNTRIES } from '../../data/mockCountries';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, Building2, TrendingUp, TrendingDown, ShieldAlert, Cpu, Sparkles, CheckCircle2, AlertTriangle, Activity } from 'lucide-react';
+import { X, Sparkles, CheckCircle2, AlertTriangle } from 'lucide-react';
 import { useApp } from '../../context/AppContext';
 import { useAuth } from '../../context/AuthContext';
 

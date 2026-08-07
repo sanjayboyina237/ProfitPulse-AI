@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
-import { Globe as GlobeIcon, RotateCcw, ZoomIn, ZoomOut, Sparkles, MapPin, AlertCircle } from 'lucide-react';
+import { Globe as GlobeIcon, Sparkles, MapPin } from 'lucide-react';
 import { MOCK_COUNTRIES } from '../../data/mockCountries';
 import type { CountryData } from '../../types';
 import { useApp } from '../../context/AppContext';

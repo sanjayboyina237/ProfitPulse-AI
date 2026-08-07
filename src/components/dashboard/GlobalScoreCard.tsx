@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShieldCheck, TrendingUp, Cpu, Award, Zap, Activity } from 'lucide-react';
+import { ShieldCheck, TrendingUp, Award, Activity } from 'lucide-react';
 import { useApp } from '../../context/AppContext';
 
 export const GlobalScoreCard: React.FC = () => {

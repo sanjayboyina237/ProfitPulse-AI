@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ShieldCheck, Users, Building2, Store, FileText, Download, CheckCircle2, RefreshCw } from 'lucide-react';
+import { ShieldCheck, Users, Building2, Store, FileText } from 'lucide-react';
 import { MOCK_COMPANIES } from '../../data/mockCompanies';
 import { MOCK_CATEGORIES } from '../../data/mockCategories';
 import confetti from 'canvas-confetti';

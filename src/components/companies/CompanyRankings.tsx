@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { MOCK_COMPANIES } from '../../data/mockCompanies';
-import { Award, TrendingUp, AlertTriangle, Sparkles, Trophy } from 'lucide-react';
+import { Trophy } from 'lucide-react';
 import { useApp } from '../../context/AppContext';
 
 export const CompanyRankings: React.FC = () => {

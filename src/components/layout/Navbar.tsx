@@ -8,15 +8,13 @@ import {
   Store, 
   Sparkles, 
   BarChart3, 
-  ShieldCheck, 
   User as UserIcon, 
   Menu, 
-  X,
-  Zap
+  X
 } from 'lucide-react';
 import { useApp } from '../../context/AppContext';
 import { useAuth } from '../../context/AuthContext';
-import { ViewType } from '../../types';
+import type { ViewType } from '../../types';
 
 export const Navbar: React.FC = () => {
   const { activeView, setActiveView, setIsSearchModalOpen, notifications, isSimulatingLive, setIsSimulatingLive } = useApp();

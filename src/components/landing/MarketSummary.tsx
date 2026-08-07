@@ -1,5 +1,5 @@
 import React from 'react';
-import { Cpu, Sparkles, CheckCircle2, TrendingUp, AlertTriangle, ShieldCheck } from 'lucide-react';
+import { Cpu, Sparkles, CheckCircle2, AlertTriangle, ShieldCheck } from 'lucide-react';
 import { useApp } from '../../context/AppContext';
 
 export const MarketSummary: React.FC = () => {

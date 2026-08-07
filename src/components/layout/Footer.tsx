@@ -1,5 +1,5 @@
 import React from 'react';
-import { Zap, ShieldCheck, Cpu, Globe, Lock, Mail, ExternalLink } from 'lucide-react';
+import { Zap, ShieldCheck, Cpu, Globe, Lock } from 'lucide-react';
 import { useApp } from '../../context/AppContext';
 
 export const Footer: React.FC = () => {

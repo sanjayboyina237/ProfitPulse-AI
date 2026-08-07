@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, Lock, Mail, ShieldCheck, ArrowRight, KeyRound, CheckCircle2 } from 'lucide-react';
+import { X, Lock, Mail, ArrowRight, KeyRound, CheckCircle2 } from 'lucide-react';
 import { useAuth } from '../../context/AuthContext';
 import confetti from 'canvas-confetti';
 

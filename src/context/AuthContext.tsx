@@ -33,7 +33,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     setIsAuthModalOpen(false);
   };
 
-  const login = (email: string, method: string = 'Email') => {
+  const login = (email: string, _method: string = 'Email') => {
     const namePart = email.split('@')[0] || 'User';
     setUser({
       id: 'usr-' + Date.now(),

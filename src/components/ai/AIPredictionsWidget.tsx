@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Sparkles, TrendingUp, AlertTriangle, Globe, Building2, Send, Cpu, ShieldCheck } from 'lucide-react';
+import { Sparkles, Send, Cpu } from 'lucide-react';
 import { MOCK_AI_INSIGHTS } from '../../data/mockAIInsights';
 
 export const AIPredictionsWidget: React.FC = () => {

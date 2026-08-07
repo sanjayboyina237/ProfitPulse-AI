@@ -1,11 +1,11 @@
 import React from 'react';
-import { User, ShieldCheck, BookmarkCheck, Globe, KeyRound, LogOut, Sparkles, Bell, Moon } from 'lucide-react';
+import { BookmarkCheck, KeyRound, LogOut, Moon } from 'lucide-react';
 import { useAuth } from '../../context/AuthContext';
 import { MOCK_COMPANIES } from '../../data/mockCompanies';
 import { useApp } from '../../context/AppContext';
 
 export const UserProfileView: React.FC = () => {
-  const { user, logout, toggle2FA, toggleWatchlist } = useAuth();
+  const { user, logout, toggle2FA } = useAuth();
   const { setSelectedCompany, setActiveView } = useApp();
 
   if (!user) {

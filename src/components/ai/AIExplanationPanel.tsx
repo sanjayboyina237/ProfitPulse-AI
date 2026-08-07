@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Sparkles, CheckCircle2, AlertTriangle, Cpu, ArrowRight } from 'lucide-react';
+import { CheckCircle2, AlertTriangle, Cpu } from 'lucide-react';
 import { PROFIT_REASONS_CATALOG, LOSS_REASONS_CATALOG } from '../../data/mockAIInsights';
 
 export const AIExplanationPanel: React.FC = () => {

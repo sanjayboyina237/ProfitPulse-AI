@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, Globe2, TrendingUp, TrendingDown, Building2, Store, Cpu, ShieldCheck, Sparkles, Award } from 'lucide-react';
+import { X, Globe2, Building2, Sparkles } from 'lucide-react';
 import { useApp } from '../../context/AppContext';
 
 export const CountryDetailDrawer: React.FC = () => {

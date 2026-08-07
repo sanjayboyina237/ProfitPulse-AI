@@ -1,5 +1,5 @@
 import React from 'react';
-import { Filter, RotateCcw, SlidersHorizontal, ArrowUpDown } from 'lucide-react';
+import { RotateCcw, SlidersHorizontal } from 'lucide-react';
 import { useApp } from '../../context/AppContext';
 
 export const FilterBar: React.FC = () => {

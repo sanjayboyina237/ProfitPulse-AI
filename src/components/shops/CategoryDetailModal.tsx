@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, Store, Sparkles, CheckCircle2, AlertTriangle, TrendingUp, DollarSign, Activity } from 'lucide-react';
+import { X, Store, Sparkles, CheckCircle2, AlertTriangle } from 'lucide-react';
 import { useApp } from '../../context/AppContext';
 
 export const CategoryDetailModal: React.FC = () => {

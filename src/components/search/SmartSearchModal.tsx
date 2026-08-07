@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Search, Mic, X, Building2, Store, Globe2, Sparkles, ArrowRight } from 'lucide-react';
+import { Search, Mic, X, Building2, Store, Globe2 } from 'lucide-react';
 import { useApp } from '../../context/AppContext';
 import { MOCK_COMPANIES } from '../../data/mockCompanies';
 import { MOCK_CATEGORIES } from '../../data/mockCategories';

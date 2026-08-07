@@ -1,8 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import type { ViewType, Company, ShopCategory, CountryData, FilterState, NotificationItem } from '../types';
-import { MOCK_COMPANIES } from '../data/mockCompanies';
-import { MOCK_CATEGORIES } from '../data/mockCategories';
-import { MOCK_COUNTRIES } from '../data/mockCountries';
 
 interface AppContextType {
   activeView: ViewType;

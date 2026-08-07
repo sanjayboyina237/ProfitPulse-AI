@@ -1,9 +1,7 @@
 import React from 'react';
 import { 
   DollarSign, 
-  TrendingUp, 
   TrendingDown, 
-  Building2, 
   Store, 
   Globe2, 
   PlusCircle, 
